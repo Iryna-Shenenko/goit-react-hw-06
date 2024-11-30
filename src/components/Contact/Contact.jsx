@@ -23,7 +23,7 @@ const Contact = ({ name, number, id }) => {
         </p>
       </div>
 
-      <button type="button" className={s.btn} onClick={() => handleDelete(id)}>
+      <button type="button" className={s.btn} onClick={handleDelete}>
         Delete
       </button>
     </div>
