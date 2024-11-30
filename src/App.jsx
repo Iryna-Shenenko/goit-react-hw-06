@@ -16,7 +16,7 @@ function App() {
       <h1>Phonebook</h1>
  
       <ContactForm />
-      <SearchBox />
+      <SearchBox/>
       <ContactList />
     </div>
     </>
